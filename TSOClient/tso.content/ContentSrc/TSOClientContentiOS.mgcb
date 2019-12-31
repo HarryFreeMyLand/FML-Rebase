@@ -1,0 +1,142 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:../Content/iOS
+/intermediateDir:obj
+/platform:iOS
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\..\other\libs\MSDFExtension\bin\Debug\MSDFExtension.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Fonts/simdialogue.ini
+/importer:FieldFontImporter
+/processor:FieldFontProcessor
+/processorParam:ExternalPath=msdfgen.exe
+/processorParam:Resolution=32
+/processorParam:Range=4
+/build:Fonts/simdialogue.ini
+
+#begin Fonts/mobile.ini
+/importer:FieldFontImporter
+/processor:FieldFontProcessor
+/processorParam:ExternalPath=msdfgen.exe
+/processorParam:Resolution=32
+/processorParam:Range=4
+/build:Fonts/mobile.ini
+
+#begin Fonts/trebuchet.ini
+/importer:FieldFontImporter
+/processor:FieldFontProcessor
+/processorParam:ExternalPath=msdfgen.exe
+/processorParam:Resolution=32
+/processorParam:Range=4
+/build:Fonts/trebuchet.ini
+
+#begin Effects/2DWorldBatch.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/2DWorldBatch.fx
+
+#begin Effects/colorpoly2D.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/colorpoly2D.fx
+
+#begin Effects/PixShader.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/PixShader.fx
+
+#begin Effects/VerShader.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/VerShader.fx
+
+#begin Effects/Vitaboy.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/Vitaboy.fx
+
+#begin Effects/GrassShader.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/GrassShader.fx
+
+#begin Effects/2DWorldBatchiOS.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/2DWorldBatchiOS.fx
+
+#begin Effects/GrassShaderiOS.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/GrassShaderiOS.fx
+
+#begin Effects/gradpoly2D.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/gradpoly2D.fx
+
+#begin Effects/LightMap2D.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/LightMap2D.fx
+
+#begin Effects/VitaboyiOS.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/VitaboyiOS.fx
+
+#begin Effects/RCObject.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/RCObject.fx
+
+#begin Effects/RCObjectiOS.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/RCObjectiOS.fx
+
+#begin Effects/ParticleShader.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/ParticleShader.fx
+
+#begin Effects/SSAA.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/SSAA.fx
+
+#begin Effects/MSDFFont.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/MSDFFont.fx
+
+#begin Effects/SpriteEffectsiOS.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:Effects/SpriteEffectsiOS.fx
+
